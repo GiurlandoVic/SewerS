@@ -60,7 +60,6 @@
 /* Main -----------------------------------------------*/
 
 body{
-    background-image: url(./img/fondo.png);
     background-image: url(../img/fondo.png);
     background-attachment: fixed;
     height: 100%;
