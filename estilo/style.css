@@ -37,7 +37,7 @@
     color: ghostwhite;
     text-decoration: none;
     border-radius: 100px;
-    padding: 1rem 3rem;
+    padding: 10px 10px;
 
 }
 
@@ -46,7 +46,6 @@
     animation-iteration-count: infinite;
     opacity: 1;
     background: #9e37c7;
-    animation 
 }
 
 
@@ -62,7 +61,7 @@
 
 body{
     background-image: url(./img/fondo.png);
-    background-image: url(../img/fondo.png)
+    background-image: url(../img/fondo.png);
     background-attachment: fixed;
     height: 100%;
     background-size: cover;
