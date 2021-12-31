@@ -5,6 +5,7 @@
   margin: 0%;
   box-sizing: border-box; }
 
+/* Mixins ---------------------------------------------*/
 /* NavBar ---------------------------------------------*/
 .menu {
   width: 100%;
@@ -14,9 +15,9 @@
   background-color: #a77fdb; }
 
 .containerGridNav {
+  display: grid;
   width: 100%;
   margin: 0 auto;
-  display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   align-items: center; }
 
@@ -24,12 +25,11 @@
   font-family: 'Abril Fatface', cursive;
   font: 900;
   font-size: 25px; }
-
-.menuItem a {
-  color: ghostwhite;
-  text-decoration: none;
-  border-radius: 100px;
-  padding: 10px 10px; }
+  .menuItem a {
+    color: ghostwhite;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 10px 10px; }
 
 .alertPulse-css {
   animation: alertPulse 2s ease-out;
