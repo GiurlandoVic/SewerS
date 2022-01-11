@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Code+Pro&display=swap');
 
 /* Reset */
+<<<<<<< HEAD
 
 * {
   padding: 0%;
@@ -58,6 +59,21 @@
 .menuItem a:hover {
   color: yellow;
 }
+=======
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* Mixins ---------------------------------------------*/
+    @mixin Grid{
+        display: grid;
+    }
+
+/* NavBar ---------------------------------------------*/
+>>>>>>> NavBarBS
 
 /* Main -----------------------------------------------*/
 
