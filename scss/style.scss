@@ -15,50 +15,6 @@
 
 /* NavBar ---------------------------------------------*/
 
-.menu {
-  width: 100%;
-  height: 160px;
-  text-align: center;
-  text-decoration: none;
-  background-color: rgb(167, 127, 219);
-}
-
-.containerGridNav {
-  @include Grid
-  width: 100%;
-  margin: 0 auto;
-  grid-template-columns: auto auto auto auto auto auto;
-  align-items: center;
-}
-
-.menuItem {
-  font-family: 'Abril Fatface', cursive;
-  font: 900;
-  font-size: 25px;
-
-  a {
-    color: ghostwhite;
-    text-decoration: none;
-    border-radius: 100px;
-    padding: 10px 10px;
-  }
-}
-
-.alertPulse-css {
-  animation: alertPulse 2s ease-out;
-  animation-iteration-count: infinite;
-  opacity: 1;
-  background: #9e37c7;
-}
-
-.logo {
-  width: 150px;
-}
-
-.menuItem a:hover {
-  color: yellow;
-}
-
 /* Main -----------------------------------------------*/
 
 body {

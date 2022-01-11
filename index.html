@@ -22,13 +22,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-
     <!-- Css -->
     <link rel="stylesheet" href="estilo/style.css">
 </head>
@@ -36,21 +29,35 @@
 
 <!-- Body -->
 
-<body>
-    <header>
-        <div class="menuItem">
-            <nav class="menu">
-                <div class="containerGridNav">
-                    <div class="menuItem"><img class="logo" src="./img/logo.png" alt="logo"></div>
-                    <div class="menuItem"><a class="alertPulse-css" href=".\index.html">Home</a></div>
-                    <div class="menuItem"><a class="alertPulse-css" href=".\html\genero.html">Genero</a></div>
-                    <div class="menuItem"><a class="alertPulse-css" href=".\html\artwork.html">Artwork</a></div>
-                    <div class="menuItem"><a class="alertPulse-css" href=".\html\radio.html">Radio</a></div>
-                    <div class="menuItem"><a class="alertPulse-css" href=".\html\contacto.html">Contacto</a></div>
-                </div>
-            </nav>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="..\index.html">SewerSlvt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarburguer" aria-controls="#navbarburguer" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="navbar-collapse collapse show" id="navbarburguer">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/genero.html">Genero</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./html/artwork.html">Artwork</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/radio.html">Radio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./html/contacto.html">Contacto</a>
+              </li>
+          </ul>
         </div>
-    </header>
+        
+      </nav>
+</header>
 
     <main>
 
@@ -108,5 +115,11 @@
         </ul>
     </footer>
 </body>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 </html>
