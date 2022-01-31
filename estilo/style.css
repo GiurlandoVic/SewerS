@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Code+Pro&display=swap");
+@import url(animate.css);
 /* Reset */
 * {
   padding: 0%;
@@ -7,42 +8,18 @@
 
 /* Mixins ---------------------------------------------*/
 /* NavBar ---------------------------------------------*/
-.menu {
-  width: 100%;
-  height: 160px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #a77fdb; }
+.header .a {
+  font-family: "Abril Fatface" !important; }
 
-.containerGridNav {
-  display: grid;
-  width: 100%;
-  margin: 0 auto;
-  grid-template-columns: auto auto auto auto auto auto;
-  align-items: center; }
+.bg-primary {
+  background-color: #9e37c7 !important; }
 
-.menuItem {
-  font-family: 'Abril Fatface', cursive;
-  font: 900;
-  font-size: 25px; }
-  .menuItem a {
-    color: ghostwhite;
-    text-decoration: none;
-    border-radius: 100px;
-    padding: 10px 10px; }
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
 
-.alertPulse-css {
-  animation: alertPulse 2s ease-out;
-  animation-iteration-count: infinite;
-  opacity: 1;
-  background: #9e37c7; }
-
-.logo {
-  width: 150px; }
-
-.menuItem a:hover {
-  color: yellow; }
-
+/* Mixins ---------------------------------------------*/
 /* Main -----------------------------------------------*/
 body {
   background-image: url(../img/fondo.png);
@@ -104,6 +81,9 @@ section .gridItem {
   color: white; }
 
 /* Footer------------------------------------------------- */
+.text-primary {
+  color: white !important; }
+
 .footer {
   position: sticky;
   left: 0;
@@ -130,12 +110,6 @@ section .gridItem {
   padding-top: 10%; }
 
 /* Media Queries------------------------------------------------- */
-@media screen and (max-width: 600px) {
-  .menuItem a {
-    font-size: 17px; }
-  .gridTitle {
-    font-size: 20px; } }
-
 @media screen and (min-width: 600px) {
   .containerGrid {
     grid-template-columns: auto; }
@@ -150,14 +124,3 @@ section .gridItem {
     grid-template-rows: auto; }
   .menuItem a {
     font-size: 25px; } }
-
-@-webkit-keyframes alertPulse {
-  0% {
-    background-color: #8322f1;
-    opacity: 1; }
-  50% {
-    opacity: #5a92d3;
-    opacity: 0.75; }
-  100% {
-    opacity: #86affa;
-    opacity: 1; } }
